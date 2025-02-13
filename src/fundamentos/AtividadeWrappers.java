@@ -7,10 +7,14 @@ public class AtividadeWrappers {
 
         //Conversão explícita de integer
         Integer a = 19;
-        System.out.println(a.intValue());
+        int primitivo = a.intValue();
+        System.out.println("Integer: " + a);
+        System.out.println("Primitivo: " + primitivo);
 
         //Conversão de double para Double
-        double b = (Double) 123.0;
-        System.out.println(b);
+        double b = 123.0;
+        Double wrapperB = Double.valueOf(b);
+        System.out.println("Primitivo: " + b);
+        System.out.println("Wrapper (Double): " + wrapperB);
     }
 }
