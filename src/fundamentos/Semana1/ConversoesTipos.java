@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Semana1;
 
 //Atividade referente a Conversões de tipos
 

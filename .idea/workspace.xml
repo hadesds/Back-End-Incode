@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Import.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/NotacaoPonto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/TiposPrimitivos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Temperatura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/VariaveisConstantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/VariaveisConstantes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Temperatura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Import.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/NotacaoPonto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/DesafioRapido.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +39,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AreaCircunferencia.executor": "Run",
+    "Application.AtividadeWrappers.executor": "Run",
+    "Application.ConversoesTipos.executor": "Run",
+    "Application.DesafioRapido.executor": "Run",
     "Application.Import.executor": "Run",
     "Application.Inferencia.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NotacaoPonto.executor": "Run",
+    "Application.OperadoresAritmeticos.executor": "Run",
+    "Application.OperadoresLogicos.executor": "Run",
     "Application.Temperatura.executor": "Run",
+    "Application.TipoString.executor": "Run",
     "Application.TiposPrimitivos.executor": "Run",
     "Application.VariaveisConstantes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,9 +58,9 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TiposPrimitivos">
-    <configuration name="Import" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Import" />
+  <component name="RunManager" selected="Application.OperadoresLogicos">
+    <configuration name="AtividadeWrappers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.AtividadeWrappers" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotacaoPonto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.NotacaoPonto" />
+    <configuration name="ConversoesTipos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.ConversoesTipos" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temperatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Temperatura" />
+    <configuration name="DesafioRapido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.DesafioRapido" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TiposPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.TiposPrimitivos" />
+    <configuration name="OperadoresAritmeticos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.OperadoresAritmeticos" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariaveisConstantes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.VariaveisConstantes" />
+    <configuration name="OperadoresLogicos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.OperadoresLogicos" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TiposPrimitivos" />
-        <item itemvalue="Application.Import" />
-        <item itemvalue="Application.NotacaoPonto" />
-        <item itemvalue="Application.Temperatura" />
-        <item itemvalue="Application.VariaveisConstantes" />
+        <item itemvalue="Application.OperadoresLogicos" />
+        <item itemvalue="Application.OperadoresAritmeticos" />
+        <item itemvalue="Application.DesafioRapido" />
+        <item itemvalue="Application.ConversoesTipos" />
+        <item itemvalue="Application.AtividadeWrappers" />
       </list>
     </recent_temporary>
   </component>

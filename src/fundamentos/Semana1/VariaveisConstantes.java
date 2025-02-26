@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Semana1;
 
 public class VariaveisConstantes {
     public static void main(String[] args) {

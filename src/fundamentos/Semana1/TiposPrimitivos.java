@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Semana1;
 
 //Atividade de Fixação referente a Tipos Primitivos
 

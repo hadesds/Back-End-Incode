@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Semana1;
 
 import java.util.Scanner;
 
