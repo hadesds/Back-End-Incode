@@ -1,4 +1,4 @@
-package fundamentos.Semana2.AtividadeFor;
+package fundamentos.Semana3.atvFor;
 
 import java.util.Scanner;
 
