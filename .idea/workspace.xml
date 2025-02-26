@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/switchBreakContinue/escolhaComida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/switchBreakContinue/menuOpcoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/switchBreakContinue/numerosImparesPares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/switchBreakContinue/semaforoCor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/boasVindas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/calculadoraSimples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/conversaoTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/verificarPar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/AtividadeWrappers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/ConversoesTipos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/DesafioRapido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/OperadoresAritmeticos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/OperadoresLogicos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/TiposPrimitivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/VariaveisConstantes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana3/switchBreakContinue/escolhaComida.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana3/switchBreakContinue/escolhaComida.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +54,14 @@
     "Application.TipoString.executor": "Run",
     "Application.TiposPrimitivos.executor": "Run",
     "Application.VariaveisConstantes.executor": "Run",
+    "Application.boasVindas.executor": "Run",
+    "Application.calculadoraSimples.executor": "Run",
+    "Application.conversaoTemperatura.executor": "Run",
     "Application.escolhaComida.executor": "Run",
     "Application.menuOpcoes.executor": "Run",
     "Application.numerosImparesPares.executor": "Run",
     "Application.semaforoCor.executor": "Run",
+    "Application.verificarPar.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -80,13 +77,13 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.escolhaComida">
-    <configuration name="OperadoresLogicos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana1.OperadoresLogicos" />
+  <component name="RunManager" selected="Application.calculoMedia">
+    <configuration name="boasVindas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.boasVindas" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana1.*" />
+          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="escolhaComida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.switchBreakContinue.escolhaComida" />
+    <configuration name="calculadoraSimples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.calculadoraSimples" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana3.switchBreakContinue.*" />
+          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="menuOpcoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.switchBreakContinue.menuOpcoes" />
+    <configuration name="calculoMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.calculoMedia" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana3.switchBreakContinue.*" />
+          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numerosImparesPares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.switchBreakContinue.numerosImparesPares" />
+    <configuration name="conversaoTemperatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.conversaoTemperatura" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana3.switchBreakContinue.*" />
+          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="semaforoCor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.switchBreakContinue.semaforoCor" />
+    <configuration name="verificarPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.verificarPar" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana3.switchBreakContinue.*" />
+          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.escolhaComida" />
-        <item itemvalue="Application.numerosImparesPares" />
-        <item itemvalue="Application.menuOpcoes" />
-        <item itemvalue="Application.semaforoCor" />
-        <item itemvalue="Application.OperadoresLogicos" />
+        <item itemvalue="Application.calculoMedia" />
+        <item itemvalue="Application.verificarPar" />
+        <item itemvalue="Application.conversaoTemperatura" />
+        <item itemvalue="Application.calculadoraSimples" />
+        <item itemvalue="Application.boasVindas" />
       </list>
     </recent_temporary>
   </component>
