@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/DESAFIORAPIDOLA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/conversaoTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/conversaoTemperatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/verificarPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/verificarPar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana3/atvFor/tabuadaFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/atvFor/tabuadaFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana3/JOptionPane/verificarPar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana3/JOptionPane/verificarPar.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     "Application.AreaCircunferencia.executor": "Run",
     "Application.AtividadeWrappers.executor": "Run",
     "Application.ConversoesTipos.executor": "Run",
+    "Application.DESAFIORAPIDOLA.executor": "Run",
     "Application.DesafioRapido.executor": "Run",
     "Application.Import.executor": "Run",
     "Application.Inferencia.executor": "Run",
@@ -77,7 +77,20 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.verificarPar">
+  <component name="RunManager" selected="Application.DESAFIORAPIDOLA">
+    <configuration name="DESAFIORAPIDOLA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.DESAFIORAPIDOLA" />
+      <module name="rafael-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="calculadoraSimples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.calculadoraSimples" />
       <module name="rafael-project1" />
@@ -91,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculoMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.calculoMedia" />
+    <configuration name="menuOpcoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.switchBreakContinue.menuOpcoes" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="conversaoTemperatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.conversaoTemperatura" />
-      <module name="rafael-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
+          <option name="PATTERN" value="fundamentos.Semana3.switchBreakContinue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.verificarPar" />
+        <item itemvalue="Application.DESAFIORAPIDOLA" />
+        <item itemvalue="Application.menuOpcoes" />
         <item itemvalue="Application.calculadoraSimples" />
+        <item itemvalue="Application.verificarPar" />
         <item itemvalue="Application.somaNumeros" />
-        <item itemvalue="Application.calculoMedia" />
-        <item itemvalue="Application.conversaoTemperatura" />
       </list>
     </recent_temporary>
   </component>
