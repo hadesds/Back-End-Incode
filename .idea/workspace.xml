@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/boasVindas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/calculadoraSimples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/conversaoTemperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/verificarPar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana3/switchBreakContinue/escolhaComida.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana3/switchBreakContinue/escolhaComida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/conversaoTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/conversaoTemperatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/verificarPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/JOptionPane/verificarPar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana3/atvFor/tabuadaFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana3/atvFor/tabuadaFor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +54,13 @@
     "Application.VariaveisConstantes.executor": "Run",
     "Application.boasVindas.executor": "Run",
     "Application.calculadoraSimples.executor": "Run",
+    "Application.calculoMedia.executor": "Run",
     "Application.conversaoTemperatura.executor": "Run",
     "Application.escolhaComida.executor": "Run",
     "Application.menuOpcoes.executor": "Run",
     "Application.numerosImparesPares.executor": "Run",
     "Application.semaforoCor.executor": "Run",
+    "Application.somaNumeros.executor": "Run",
     "Application.verificarPar.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -77,20 +77,7 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.calculoMedia">
-    <configuration name="boasVindas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.boasVindas" />
-      <module name="rafael-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentos.Semana3.JOptionPane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.verificarPar">
     <configuration name="calculadoraSimples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.calculadoraSimples" />
       <module name="rafael-project1" />
@@ -130,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="somaNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.atvFor.somaNumeros" />
+      <module name="rafael-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentos.Semana3.atvFor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="verificarPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentos.Semana3.JOptionPane.verificarPar" />
       <module name="rafael-project1" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.calculoMedia" />
         <item itemvalue="Application.verificarPar" />
-        <item itemvalue="Application.conversaoTemperatura" />
         <item itemvalue="Application.calculadoraSimples" />
-        <item itemvalue="Application.boasVindas" />
+        <item itemvalue="Application.somaNumeros" />
+        <item itemvalue="Application.calculoMedia" />
+        <item itemvalue="Application.conversaoTemperatura" />
       </list>
     </recent_temporary>
   </component>

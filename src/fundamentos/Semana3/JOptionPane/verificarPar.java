@@ -8,6 +8,7 @@ public class verificarPar {
                 "Digite um valor: ");
 
         int v1 = Integer.parseInt(valor);
+
         if (v1 % 2 == 0) {
             JOptionPane.showMessageDialog(null,
                     "Seu valor é par");

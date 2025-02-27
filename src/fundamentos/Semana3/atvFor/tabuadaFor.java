@@ -10,7 +10,7 @@ public class tabuadaFor {
 
         int contador = 1;
 
-        for (int limite = entrada.nextInt();contador <= 10; contador ++) {
+        for (int limite = entrada.nextInt(); contador <= 10; contador++) {
             int multiplicacao = limite * contador;
             System.out.println("Tabuada de " + limite + " x " + contador + " = " + multiplicacao);
         }
