@@ -1,8 +1,6 @@
-package fundamentos;
+package fundamentos.Semana3;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class DESAFIORAPIDOLA {
     public static void main(String[] args) {
@@ -13,7 +11,7 @@ public class DESAFIORAPIDOLA {
         System.out.println(ids);
 
         for(String key :ids.keySet()){
-            System.out.println(key + ": " + ids.get(key));
+            System.out.println(key + ids.get(key));
         }
     }
 }
