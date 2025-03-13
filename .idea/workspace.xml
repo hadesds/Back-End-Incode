@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/ContaBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/POO1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/ContaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/ContaBanco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,45 +35,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AreaCircunferencia.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AtividadeWrappers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConversoesTipos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DESAFIORAPIDOLA.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DesafioJoption.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DesafioRapido.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Import.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inferencia.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NotacaoPonto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresAritmeticos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresLogicos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Temperatura.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teste.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TipoString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TiposPrimitivos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VariaveisConstantes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.boasVindas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.calculadoraSimples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.calculoMedia.executor&quot;: &quot;Run&quot;,
-    &quot;Application.conversaoTemperatura.executor&quot;: &quot;Run&quot;,
-    &quot;Application.escolhaComida.executor&quot;: &quot;Run&quot;,
-    &quot;Application.menuOpcoes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numerosImparesPares.executor&quot;: &quot;Run&quot;,
-    &quot;Application.principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.semaforoCor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.somaNumeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.teste2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.verificarPar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.whileSolicitar.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/incode.CEUMA_ADM/Downloads/aulaincode02/rafael-project1/src/fundamentos&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AreaCircunferencia.executor": "Run",
+    "Application.AtividadeWrappers.executor": "Run",
+    "Application.ConversoesTipos.executor": "Run",
+    "Application.DESAFIORAPIDOLA.executor": "Run",
+    "Application.DesafioJoption.executor": "Run",
+    "Application.DesafioRapido.executor": "Run",
+    "Application.Import.executor": "Run",
+    "Application.Inferencia.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NotacaoPonto.executor": "Run",
+    "Application.OperadoresAritmeticos.executor": "Run",
+    "Application.OperadoresLogicos.executor": "Run",
+    "Application.POO1.executor": "Run",
+    "Application.Temperatura.executor": "Run",
+    "Application.Teste.executor": "Debug",
+    "Application.TipoString.executor": "Run",
+    "Application.TiposPrimitivos.executor": "Run",
+    "Application.VariaveisConstantes.executor": "Run",
+    "Application.boasVindas.executor": "Run",
+    "Application.calculadoraSimples.executor": "Run",
+    "Application.calculoMedia.executor": "Run",
+    "Application.conversaoTemperatura.executor": "Run",
+    "Application.escolhaComida.executor": "Run",
+    "Application.menuOpcoes.executor": "Run",
+    "Application.numerosImparesPares.executor": "Run",
+    "Application.principal.executor": "Run",
+    "Application.semaforoCor.executor": "Run",
+    "Application.somaNumeros.executor": "Run",
+    "Application.teste2.executor": "Run",
+    "Application.verificarPar.executor": "Run",
+    "Application.whileSolicitar.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/incode.CEUMA_ADM/Downloads/aulaincode02/rafael-project1/src/fundamentos",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\incode.CEUMA_ADM\Downloads\aulaincode02\rafael-project1\src\fundamentos" />
@@ -81,7 +83,7 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesafioJoption">
+  <component name="RunManager" selected="Application.POO1">
     <configuration name="Desafio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Semana_4.DesafioJoption.Desafio1" />
       <module name="rafael-project1" />
@@ -101,6 +103,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Semana_4.DesafioJoption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POO1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana4.Metodos.POO1" />
+      <module name="rafael-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentos.Semana4.Metodos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,26 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whileSolicitar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana2.atvWhile.whileSolicitar" />
-      <module name="rafael-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentos.Semana2.atvWhile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.POO1" />
         <item itemvalue="Application.DesafioJoption" />
         <item itemvalue="Application.Desafio1" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.teste2" />
-        <item itemvalue="Application.whileSolicitar" />
       </list>
     </recent_temporary>
   </component>
