@@ -1,4 +1,4 @@
-package fundamentos.Semana4.caneta;
+package fundamentos.Semana4.Caneta;
 //Usa-se Alt Insert
 public class Caneta {
     private String modelo;

@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Encapsulamento/Controlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Encapsulamento/ControleRemoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Encapsulamento/Encapsulamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ultraemojicombat/Luta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ultraemojicombat/Lutador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ultraemojicombat/UltraEmojiCombat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/Caneta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/Caneta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/caneta/Caneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Caneta/Caneta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/caneta/principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Caneta/principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
     "Application.Teste.executor": "Debug",
     "Application.TipoString.executor": "Run",
     "Application.TiposPrimitivos.executor": "Run",
+    "Application.UltraEmojiCombat.executor": "Run",
     "Application.VariaveisConstantes.executor": "Run",
     "Application.boasVindas.executor": "Run",
     "Application.calculadoraSimples.executor": "Run",
@@ -90,7 +95,7 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Encapsulamento">
+  <component name="RunManager" selected="Application.UltraEmojiCombat">
     <configuration name="Desafio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Semana_4.DesafioJoption.Desafio1" />
       <module name="rafael-project1" />
@@ -143,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Desafio1.Teste" />
+    <configuration name="UltraEmojiCombat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana4.ultraemojicombat.UltraEmojiCombat" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Desafio1.*" />
+          <option name="PATTERN" value="fundamentos.Semana4.ultraemojicombat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UltraEmojiCombat" />
         <item itemvalue="Application.Encapsulamento" />
         <item itemvalue="Application.POO1" />
         <item itemvalue="Application.DesafioJoption" />
         <item itemvalue="Application.Desafio1" />
-        <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package fundamentos.Semana4.caneta;
+package fundamentos.Semana4.Caneta;
 
 public class principal {
     public static void main(String[] args) {
