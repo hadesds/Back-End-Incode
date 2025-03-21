@@ -1,4 +1,4 @@
-package fundamentos.Semana4.Encapsulamento;
+package fundamentos.Semana4.ControleRemoto;
 
 public class ControleRemoto implements Controlador {
     private int volume;

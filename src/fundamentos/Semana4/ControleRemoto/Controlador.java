@@ -1,4 +1,6 @@
-package fundamentos.Semana4.Encapsulamento;
+package fundamentos.Semana4.ControleRemoto;
+
+import javax.swing.*;
 
 public interface Controlador {
     public abstract void ligar();

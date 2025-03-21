@@ -1,4 +1,4 @@
-package fundamentos.Semana4.Encapsulamento;
+package fundamentos.Semana4.ControleRemoto;
 
 public class Encapsulamento {
     public static void main(String[] args) {

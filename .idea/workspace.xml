@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ultraemojicombat/Luta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ultraemojicombat/Lutador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ultraemojicombat/UltraEmojiCombat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Exercício/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Exercício/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Exercício/ProjetoLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Exercício/Publicacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/Caneta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/Caneta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/caneta/principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/caneta/Caneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Caneta/Caneta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/caneta/principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Caneta/principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/ultraemojicombat/UltraEmojiCombat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana4/ultraemojicombat/UltraEmojiCombat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/Encapsulamento/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ControleRemoto/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/Encapsulamento/ControleRemoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ControleRemoto/ControleRemoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/Encapsulamento/Encapsulamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/ControleRemoto/Encapsulamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/POO1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/POO1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
     "Application.OperadoresAritmeticos.executor": "Run",
     "Application.OperadoresLogicos.executor": "Run",
     "Application.POO1.executor": "Run",
+    "Application.ProjetoLivro.executor": "Run",
     "Application.Temperatura.executor": "Run",
     "Application.Teste.executor": "Debug",
     "Application.TipoString.executor": "Run",
@@ -95,20 +98,7 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UltraEmojiCombat">
-    <configuration name="Desafio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Semana_4.DesafioJoption.Desafio1" />
-      <module name="rafael-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Semana_4.DesafioJoption.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.POO1">
     <configuration name="DesafioJoption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Semana_4.DesafioJoption.DesafioJoption" />
       <module name="rafael-project1" />
@@ -123,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="Encapsulamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana4.Encapsulamento.Encapsulamento" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana4.ControleRemoto.Encapsulamento" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana4.Encapsulamento.*" />
+          <option name="PATTERN" value="fundamentos.Semana4.ControleRemoto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,6 +131,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fundamentos.Semana4.Metodos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjetoLivro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana4.Exercício.ProjetoLivro" />
+      <module name="rafael-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentos.Semana4.Exercício.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.POO1" />
+        <item itemvalue="Application.ProjetoLivro" />
         <item itemvalue="Application.UltraEmojiCombat" />
         <item itemvalue="Application.Encapsulamento" />
-        <item itemvalue="Application.POO1" />
         <item itemvalue="Application.DesafioJoption" />
-        <item itemvalue="Application.Desafio1" />
       </list>
     </recent_temporary>
   </component>
