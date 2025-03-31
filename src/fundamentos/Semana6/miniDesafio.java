@@ -1,6 +1,5 @@
 package fundamentos.Semana6;
 
-import javax.swing.*;
 import java.util.*;
 
 public class miniDesafio {
@@ -9,9 +8,8 @@ public class miniDesafio {
         Scanner entrada2 = new Scanner(System.in);
 
         String[] disciplinas = {"Matemática", "Português", "História"};
-        Set<String> alunos = new HashSet<String>();
-        HashMap<String, Integer> cadastro = new HashMap<>();
-//        String[] alunos = {};
+        HashMap<Integer, String> cadastro = new HashMap<>();
+        Map<Integer, double[]> notas = new HashMap<>();
 
         while (true) {
             System.out.print("---------Menu---------\n");
@@ -26,21 +24,40 @@ public class miniDesafio {
                 System.out.println("Qual seu número de matrícula?");
                 Integer matricula = entrada2.nextInt();
 
-                cadastro.put(nome, matricula);
-                String[][] matriz = new String[alunos.hashCode()][disciplinas.length];
-
-            } else if (opcao == 2) {
-                System.out.println("Cadastrando alunos...");
-                for (String key : cadastro.keySet()) {
-                    System.out.println("Aluno: " + key + " | Matrícula: " + cadastro.get(key)
-                            + " cadastrado com sucesso");
+                if (cadastro.containsKey(matricula)) {
+                    System.out.println("Não foi possível completar o cadastro. Tente novamente");
+                } else {
+                    cadastro.put(matricula, nome);
+                    double[] notasAluno = new double[disciplinas.length];
+                    notas.put(matricula, notasAluno);
+                    System.out.println("Cadastro realizado com sucesso!");
                 }
-            } else if (opcao==3) {
+            } else if (opcao == 2) {
+                System.out.println("Listando alunos...");
+                for (Map.Entry<Integer, String> entry : cadastro.entrySet()) {
+                    Integer matricula = entry.getKey();
+                    String nome = entry.getValue();
+                    System.out.println("Aluno: " + nome + " | Matrícula: " + matricula);
+                }
+            } else if (opcao == 3) {
+                System.out.println("Listando notas...");
+                for (Map.Entry<Integer, double[]> entry : notas.entrySet()) {
+                    Integer matricula = entry.getKey();
+                    String nome = cadastro.get(matricula);
+                    double[] notasAluno = entry.getValue();
 
+                    System.out.println("Aluno: " + nome + " | Matrícula: " + matricula);
+                    for (int i = 0; i < disciplinas.length; i++) {
+                        System.out.println(disciplinas[i] + ": " + notasAluno[i]);
+                    }
+                }
+            } else if (opcao == 4) {
+                System.out.println("Saindo...");
+                break;
+            } else {
+                System.out.println("Opção inválida, tente novamente.");
             }
-
-
-
         }
-    }}
+    }
+}
 
