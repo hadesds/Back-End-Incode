@@ -8,7 +8,7 @@ public class miniDesafio {
         Scanner entrada2 = new Scanner(System.in);
 
         String[] disciplinas = {"Matemática", "Português", "História"};
-        HashMap<Integer, String> cadastro = new HashMap<>();
+        Map<Integer, String> cadastro = new HashMap<>();
         Map<Integer, double[]> notas = new HashMap<>();
 
         while (true) {
@@ -37,7 +37,7 @@ public class miniDesafio {
                 for (Map.Entry<Integer, String> entry : cadastro.entrySet()) {
                     Integer matricula = entry.getKey();
                     String nome = entry.getValue();
-                    System.out.println("Aluno: " + nome + " | Matrícula: " + matricula);
+                    System.out.println("Aluno: " + nome + " | Matrícula: " + matricula + " cadastrado com sucesso");
                 }
             } else if (opcao == 3) {
                 System.out.println("Listando notas...");
