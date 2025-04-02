@@ -2,7 +2,7 @@ package fundamentos.Semana6;
 
 import java.util.*;
 
-public class miniDesafio {
+public class miniDesafio6 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         Scanner entrada2 = new Scanner(System.in);
@@ -34,17 +34,17 @@ public class miniDesafio {
                 }
             } else if (opcao == 2) {
                 System.out.println("Listando alunos...");
-                for (Map.Entry<Integer, String> entry : cadastro.entrySet()) {
-                    Integer matricula = entry.getKey();
-                    String nome = entry.getValue();
+                for (Map.Entry<Integer, String> alunos : cadastro.entrySet()) {
+                    Integer matricula = alunos.getKey();
+                    String nome = alunos.getValue();
                     System.out.println("Aluno: " + nome + " | Matrícula: " + matricula + " cadastrado com sucesso");
                 }
             } else if (opcao == 3) {
                 System.out.println("Listando notas...");
-                for (Map.Entry<Integer, double[]> entry : notas.entrySet()) {
-                    Integer matricula = entry.getKey();
+                for (Map.Entry<Integer, double[]> resultado : notas.entrySet()) {
+                    Integer matricula = resultado.getKey();
                     String nome = cadastro.get(matricula);
-                    double[] notasAluno = entry.getValue();
+                    double[] notasAluno = resultado.getValue();
 
                     System.out.println("Aluno: " + nome + " | Matrícula: " + matricula);
                     for (int i = 0; i < disciplinas.length; i++) {
