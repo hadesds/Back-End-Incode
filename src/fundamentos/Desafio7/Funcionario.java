@@ -1,9 +1,13 @@
 package fundamentos.Desafio7;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Funcionario {
 
     private String nome, cargo;
     private float salarioBase;
+    Map<String, Float> listagem = new HashMap<>();
 
     public void receberBonificacao(float aumento) {
         if (this.cargo.equals("Analista")) {
@@ -14,6 +18,17 @@ public class Funcionario {
             this.salarioBase += this.salarioBase * 30/100;
         }
     }
+
+    public void adicionarFun() {
+        System.out.println("Adicinando funcionários...");
+        for (Map.Entry<String, Float> funcionarios : listagem.entrySet()) {
+//            String nome = this.getNome();
+//            String cargo = this.getCargo().toUpperCase();
+//            float salario = this.getSalarioBase();
+            System.out.println("Nome: " + getNome() + " | Cargo: " + getCargo().toUpperCase() + " | Salário Final: R$" + getSalarioBase());
+        }
+    }
+
     public String getCargo() {
         return cargo;
     }

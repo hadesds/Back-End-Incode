@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/ProjetoPessoas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Pilha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Pilha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/miniDesafio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/POO1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana7/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana7/miniDesafio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio7/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio7/Empresa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio7/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio7/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio7/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio7/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,7 @@
     "Application.DESAFIORAPIDOLA.executor": "Run",
     "Application.DesafioJoption.executor": "Run",
     "Application.DesafioRapido.executor": "Run",
+    "Application.Empresa.executor": "Run",
     "Application.Encapsulamento.executor": "Run",
     "Application.Equals.executor": "Run",
     "Application.Import.executor": "Run",
@@ -109,13 +104,13 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProjetoPessoas">
-    <configuration name="Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana6.Equals" />
+  <component name="RunManager" selected="Application.Empresa">
+    <configuration name="Empresa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Desafio7.Empresa" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana6.*" />
+          <option name="PATTERN" value="fundamentos.Desafio7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProjetoPessoas" />
+        <item itemvalue="Application.Empresa" />
         <item itemvalue="Application.miniDesafio6" />
+        <item itemvalue="Application.ProjetoPessoas" />
         <item itemvalue="Application.fundamentos.Semana6.Pilha" />
         <item itemvalue="Application.Pilha" />
-        <item itemvalue="Application.Equals" />
       </list>
     </recent_temporary>
   </component>
