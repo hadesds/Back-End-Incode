@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana6/Pilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/ProjetoPessoas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Equals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Equals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana6/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana6/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Pilha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/Pilha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Semana6/miniDesafio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana4/Metodos/POO1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana7/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Semana7/miniDesafio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Semana7/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +64,7 @@
     "Application.POO1.executor": "Run",
     "Application.Pilha.executor": "Run",
     "Application.ProjetoLivro.executor": "Run",
+    "Application.ProjetoPessoas.executor": "Run",
     "Application.Temperatura.executor": "Run",
     "Application.Teste.executor": "Debug",
     "Application.TipoString.executor": "Run",
@@ -75,6 +82,7 @@
     "Application.matriz.executor": "Run",
     "Application.menuOpcoes.executor": "Run",
     "Application.miniDesafio.executor": "Run",
+    "Application.miniDesafio6.executor": "Run",
     "Application.notas.executor": "Run",
     "Application.numerosImparesPares.executor": "Run",
     "Application.principal.executor": "Run",
@@ -101,7 +109,7 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fundamentos.Semana6.Pilha">
+  <component name="RunManager" selected="Application.ProjetoPessoas">
     <configuration name="Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentos.Semana6.Equals" />
       <module name="rafael-project1" />
@@ -123,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="foreach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana6.foreach" />
+    <configuration name="ProjetoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana7.ProjetoPessoas" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.Semana6.*" />
+          <option name="PATTERN" value="fundamentos.Semana7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="matriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana6.matriz" />
+    <configuration name="miniDesafio6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana6.miniDesafio6" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProjetoPessoas" />
+        <item itemvalue="Application.miniDesafio6" />
         <item itemvalue="Application.fundamentos.Semana6.Pilha" />
         <item itemvalue="Application.Pilha" />
         <item itemvalue="Application.Equals" />
-        <item itemvalue="Application.matriz" />
-        <item itemvalue="Application.foreach" />
       </list>
     </recent_temporary>
   </component>
