@@ -22,9 +22,6 @@ public class Funcionario {
     public void adicionarFun() {
         System.out.println("Adicinando funcionários...");
         for (Map.Entry<String, Float> funcionarios : listagem.entrySet()) {
-//            String nome = this.getNome();
-//            String cargo = this.getCargo().toUpperCase();
-//            float salario = this.getSalarioBase();
             System.out.println("Nome: " + getNome() + " | Cargo: " + getCargo().toUpperCase() + " | Salário Final: R$" + getSalarioBase());
         }
     }

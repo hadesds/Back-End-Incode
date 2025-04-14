@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Cardapio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Refeicao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Semana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio7/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio7/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio7/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio8/Alimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Alimentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio8/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Cardapio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio8/Refeicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Refeicao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   "keyToString": {
     "Application.AreaCircunferencia.executor": "Run",
     "Application.AtividadeWrappers.executor": "Run",
+    "Application.Cardapio.executor": "Run",
     "Application.ConversoesTipos.executor": "Run",
     "Application.DESAFIORAPIDOLA.executor": "Run",
     "Application.DesafioJOptionSwitch.executor": "Run",
@@ -104,7 +107,20 @@
       <recent name="Semana3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesafioJOptionSwitch">
+  <component name="RunManager" selected="Application.Cardapio">
+    <configuration name="Cardapio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Desafio8.Cardapio" />
+      <module name="rafael-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentos.Desafio8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DesafioJOptionSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentos.Desafio1.DesafioJOptionSwitch" />
       <module name="rafael-project1" />
@@ -131,21 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjetoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana7.ProjetoPessoas" />
-      <module name="rafael-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentos.Semana7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fundamentos.Semana6.Pilha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana6.Pilha" />
+    <configuration name="matriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.Semana6.matriz" />
       <module name="rafael-project1" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesafioJOptionSwitch" />
-        <item itemvalue="Application.miniDesafio6" />
+        <item itemvalue="Application.Cardapio" />
+        <item itemvalue="Application.matriz" />
         <item itemvalue="Application.Empresa" />
-        <item itemvalue="Application.ProjetoPessoas" />
-        <item itemvalue="Application.fundamentos.Semana6.Pilha" />
+        <item itemvalue="Application.miniDesafio6" />
+        <item itemvalue="Application.DesafioJOptionSwitch" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +193,17 @@
       <updated>1739272888060</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rafael_project1$Temperatura.ic" NAME="Temperatura Coverage Results" MODIFIED="1739291837253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
