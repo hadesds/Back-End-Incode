@@ -25,20 +25,39 @@ public class Refeicao extends Alimentos {
                 System.out.println("--- Dia: " + diasDaSemana.values()[dia] + "---");
                 System.out.println("--- Turno: " + turnoDaSemana.values()[turno] + "---");
 
-                saladas.forEach((k, v) -> System.out.println(k + " - " + v));
-                System.out.println("Escolha sua salada: ");
-                int escolhaSalada = entrada.nextInt();
+                int escolhaSalada;
+                do {
+                    saladas.forEach((k, v) -> System.out.println(k + " - " + v));
+                    System.out.print("Escolha sua salada: ");
+                    escolhaSalada = entrada.nextInt();
+                    if (!saladas.containsKey(escolhaSalada)) {
+                        System.out.println("Opção inválida! Tente novamente.");
+                    }
+                } while (!saladas.containsKey(escolhaSalada));
                 String saladaEscolhida = saladas.get(escolhaSalada);
 
-                pratos.forEach((k, v) -> System.out.println(k + " - " + v));
-                System.out.println("Escolha sua Prato Principal: ");
-                int escolhaPrato = entrada.nextInt();
-                String pratoEscolhido = pratos.get(escolhaPrato);
 
-                acompanhamentos.forEach((k, v) -> System.out.println(k + " - " + v));
-                System.out.println("Escolha sua Acompanhamentos: ");
-                Integer escolhaAcompanhamento = entrada.nextInt();
-                String acompanhamentoEscolhido = acompanhamentos.get(escolhaSalada);
+                int escolhaPratoPrincipal;
+                do {
+                    pratos.forEach((k, v) -> System.out.println(k + " - " + v));
+                    System.out.print("Escolha seu prato: ");
+                    escolhaPratoPrincipal = entrada.nextInt();
+                    if (!pratos.containsKey(escolhaPratoPrincipal)) {
+                        System.out.println("Opção inválida! Tente novamente.");
+                    }
+                } while (!pratos.containsKey(escolhaPratoPrincipal));
+                String pratoEscolhido = pratos.get(escolhaPratoPrincipal);
+
+                int escolhaAcompanhamento;
+                do {
+                    acompanhamentos.forEach((k, v) -> System.out.println(k + " - " + v));
+                    System.out.print("Escolha seu acompanhamento: ");
+                    escolhaAcompanhamento = entrada.nextInt();
+                    if (!acompanhamentos.containsKey(escolhaAcompanhamento)) {
+                        System.out.println("Opção inválida! Tente novamente.");
+                    }
+                } while (!acompanhamentos.containsKey(escolhaAcompanhamento));
+                String acompanhamentoEscolhido = acompanhamentos.get(escolhaAcompanhamento);
 
                 String refeicao = diasDaSemana.values()[dia] + "[" + turnoDaSemana.values()[turno] + "]" +" | Salada: " + saladaEscolhida +
                         "| Prato: " + pratoEscolhido +
