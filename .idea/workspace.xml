@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3d2ca6a3-1083-4af2-bd15-774af7e083fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio8/Cardapio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio8/Cardapio.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio8/Refeicao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rafael-project1/fundamentos/Desafio8/Refeicao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio8/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Cardapio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio8/Alimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Alimentos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio8/Refeicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentos/Desafio8/Refeicao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/Desafio8/Semana.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

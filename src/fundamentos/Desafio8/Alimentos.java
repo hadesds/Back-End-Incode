@@ -1,8 +1,6 @@
 package fundamentos.Desafio8;
 
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
 
 public class Alimentos {
     public static HashMap<Integer, String> saladas = new HashMap<>();
