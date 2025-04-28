@@ -15,5 +15,6 @@ public class CalculoLambda {
         //Usando interface que recebe dois parametros do mesmo tipo e retorna um resultado de mesmo tipo
         BinaryOperator<Double> calc = (x,y) -> { return x + y; };
         System.out.println(calc.apply(8.0,9.0));
+
     }
 }

@@ -1,6 +1,14 @@
 package fundamentos.Semana9;
 
 public class Generics {
+
+//Curingas (Wildcards):
+//<?> → qualquer tipo
+//<? extends T> → T ou subclasse
+//<? super T> → T ou superclasse
+
+
+
     public static class Caixa<T> {
 
         private T conteudo;
@@ -29,5 +37,6 @@ public class Generics {
         Caixa<Pessoa> caixaPessoa = new Caixa<>();
         caixaPessoa.guardar(p);
         System.out.println(caixaPessoa.abrir());
+
     }
 }
